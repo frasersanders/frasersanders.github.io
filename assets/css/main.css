@@ -1131,7 +1131,7 @@ button {
 		background-position: center, center;
 		background-repeat: no-repeat, repeat;
 		/* This sets the order of rendering. This will sit on top of all elements with z-index < 2 */
-		z-index: 2;
+		z-index: 0;
 	}
 
 	/* This sets the content of the actual background */
@@ -1145,7 +1145,7 @@ button {
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 		/* We can change the background image here. */
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/mdlbrt-20221006231258218664.png");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
